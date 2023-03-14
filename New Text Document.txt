@@ -1,0 +1,222 @@
+DJ contains all files in function format where the files name is the function name and its code is its expression and the files output came with the return keyword
+
+
+print(exp)-> it is a function that print immediately value
+
+
+**********Data storage format *****************
+Error,Function and variable all are data and store in same format
+err_bucket = array{Error};
+variable_bucket = map{name:{type:,value:,mutable:}};
+Function_bucket = map{<name,no.args>:{(function_data = {arg1,arg2,...},value)};
+
+class Data_token{
+	HashMap<String,HashMap<String>> bucket ;
+	String name;
+	Map details;
+
+	addMember(name,data_details){
+		bucket.put(name,data_details);
+	}
+	
+	public toString(){
+		return {
+			name:{
+				1:value,
+				2:type,
+				3.Mutable
+			}
+		}
+	}
+}
+
+
+
+
+'
+import D://program files/main.dj->
+
+file imported as->
+	'main(){
+		file code=>'expression;
+		print();
+		return output;'
+	}'
+'
+
+//Types of dataTypes
+
+1. Variables ->
+2. Functions -> 
+
+
+
+class Token{
+	map<string,string> data;
+	/*
+		data={
+			type:
+			value:
+		}
+	*/
+}
+
+
+
+class BUILD_INs{
+	build_INs_data_types_bucket = {token_name:token_class};
+	build_INs_keywords = {keywords_name:};
+	//define all token class
+	{int,string,bool,float}
+}
+
+
+
+
+
+//Main class is the translator class
+
+'err' =  is the array of collection of all errors
+'Variables_bucket' collects all data as{
+	for function->
+	Variable_name:{
+		type:function
+		value: all_expression under '{}'
+	}
+	for value
+	variable_name:{
+		type:value
+		value:{
+			Token data
+			String mutable
+		}
+	}
+}
+class translator{
+	
+	Error[] err;
+	
+	Variables_bucket make_variables(text,endKey,variables_bucket,can_create,can_update){
+	try{
+		//iterate over text with help of position
+		String current_variable;
+		while(pos.idx<text.length() && current_char!=endKey){
+			check if current_character is a character then add to current_variable
+			else if current_char is in interruption_key(' \n\t('){
+				if it is '(' that means it belongs to the function and calls the function class function
+				if it is ' \n\t'{
+					if current_variable if keywords then keyword();
+					else if it is data_type then call datatypes();
+					else check if variable_name doesn't exist then create a variable name
+					else throw "SYNTAX ERROR"
+				}else{
+					Throw "SYNTAX ERROR";
+				}
+			}
+			else if current_char is '=' and variable_name is created{
+				if variable_name is exist in bucket and can modify value{
+					data = data_expression();
+					check if data_type is alredy define{
+						overwrite type to data.type
+					}
+					value = data.value;
+				}else{
+					//data can't be modify
+					'ILLEGAL OPERATION'
+				}
+				
+			}
+		}
+			
+	}
+	}catch(){
+		'SYSTEM ERROR'
+	}
+
+	
+}
+
+
+//Gives detials of current itration
+class position{
+	int ln;
+	int idx;
+	int col;
+	char current_char
+	String text;
+	position(String text){
+		idx = -1;
+		col =  0;
+		ln  =  0;
+		text = text;
+	}
+	void IncrementChar(){
+		//code
+	}
+}
+
+
+
+//data_expression
+
+class data_expression{
+	
+	Token Evaluate_data_expression(String text,String endKey,Position pos,accessible_variables){
+		evaluate data_expression
+	}
+	
+}
+
+//Functions_expression
+class function_expression{
+	evaluate_function(){
+		Token args[];
+		while(endkey!=")"){
+			IncrementChar();//to increment from "(" to "arguments"
+			arg = now evaluate data expression from data_expression("",endkey=",)")
+			args.add(value);
+		}
+		incrementChar();//to inctement from ')' -> next character
+		//skip_space
+		if(current_char==';'){
+			that means its is function call expresssion
+			then call the function function_call();
+		}else if(current_char=="{"){
+			which means it is function creation state
+			incrementChar();//"{"-> next_char
+			braces_count = 1;
+			func_value = "";
+			while(braces_count!=0){
+				if current_char=="{" then braces_count++;
+				else if current_char=="}" then braces_count--;
+				incrementChar();
+				now add character to func_value
+			}
+			if braces_count!=0{
+				err.add("SYNTAX ERROR")
+			}else{
+				IncrementChar();//"}"->next_char
+				add type:function
+				add value:func_value
+			}
+		}else{
+			err.add("SYNTAX ERROR");
+		}
+	}
+}
+
+
+
+class Error{
+	create_error(error_name,error_message){
+		error_name
+		error_message
+	}
+	toString(){
+		return error_name:error_message;
+	}
+}
+
+
+
+
