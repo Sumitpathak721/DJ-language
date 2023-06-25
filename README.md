@@ -20,12 +20,13 @@ git clone https://github.com/Sumitpathak721/DJ-language
 
 3. **Explore the Sample Input and Output**: Refer to the sample input and output images provided above to understand how the DJ programming language model transforms code and produces results.
     ## Example Image
-    
-    #####Sample Input File:
-    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/a7c5c45e-caab-4527-b719-bc3c38d9460b' alt='programming language DJ' style='display:inline' width='300px'>
-    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/2e788c3c-ec9b-494b-a40f-9e70c7f1c43c' alt='programming language DJ' style='display:inline' width='300px'>
-    #####Corrosponding Sample Output:
-    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/104ebb1a-f291-4f22-b006-261870d9582c' alt='programming language DJ' style='display:inline' width='300px'>
+
+    ##### Sample Input File:
+    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/a7c5c45e-caab-4527-b719-bc3c38d9460b' alt='programming language DJ' style='display:inline;margin:"5px"' width='47%'>
+    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/2e788c3c-ec9b-494b-a40f-9e70c7f1c43c' alt='programming language DJ' style='display:inline;margin:"5px"' width='47%'>
+    <be>
+    <h5>Corresponding Sample Output:</h5>
+    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/104ebb1a-f291-4f22-b006-261870d9582c' alt='programming language DJ' style='display:inline' width='70%'>
 
 ## Usage
 
@@ -59,14 +60,8 @@ We appreciate your contribution and will review the pull request as soon as poss
 
 This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute the code for personal and commercial purposes.
 
-## Acknowledgements
-
-We would like to acknowledge the following resources and inspirations that contributed to the development of the DJ programming language model:
-
-- [List of Inspirational Resources]
-
 ## Contact
 
-For any questions, feedback, or inquiries, please contact [Your Name] at [your-email@example.com].
+For any questions, feedback, or inquiries, please contact **Sumit Pathak** at [pathaksumit721@gmai.com].
 
 Happy coding!
