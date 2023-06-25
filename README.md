@@ -22,10 +22,10 @@ git clone https://github.com/Sumitpathak721/DJ-language
     ## Example Image
     
     #####Sample Input File:
-    <img src='![Screenshot (74)](https://github.com/Sumitpathak721/DJ-language/assets/98797074/a7c5c45e-caab-4527-b719-bc3c38d9460b)' alt='programming language DJ' style='display:inline' width='300px'>
-    <img src='![Screenshot (75)](https://github.com/Sumitpathak721/DJ-language/assets/98797074/2e788c3c-ec9b-494b-a40f-9e70c7f1c43c)' alt='programming language DJ' style='display:inline' width='300px'>
+    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/a7c5c45e-caab-4527-b719-bc3c38d9460b' alt='programming language DJ' style='display:inline' width='300px'>
+    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/2e788c3c-ec9b-494b-a40f-9e70c7f1c43c' alt='programming language DJ' style='display:inline' width='300px'>
     #####Corrosponding Sample Output:
-    <img src='![Screenshot (76)](https://github.com/Sumitpathak721/DJ-language/assets/98797074/104ebb1a-f291-4f22-b006-261870d9582c)' alt='programming language DJ' style='display:inline' width='300px'>
+    <img src='https://github.com/Sumitpathak721/DJ-language/assets/98797074/104ebb1a-f291-4f22-b006-261870d9582c' alt='programming language DJ' style='display:inline' width='300px'>
 
 ## Usage
 
